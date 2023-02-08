@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    
+    </head>
+
+    <body>
+
+        <h1>Formulário de cadastro: evento de tecnologia da Kenzie Academy Brasil</h1>
+
+        <form>
+            
+            <p>
+                <label for="Nome completo">Nome completo</label>
+            </p>
+            <input type="text" placeholder="Nome completo" id="Nome completo" required="true" name="nome">
+            
+            <p>
+                <label for="E-mail">E-mail</label>
+            </p>
+            <input type="email" placeholder="E-mail" id="E-mail" required="true" name="email">
+
+            <p>
+                <label for="Motivação">O que te motivou a participar do evento?</label>
+            </p>
+                <textarea id="Motivação" required="true" name="motivação" rows="10" cols="30">
+                </textarea>
+                
+            <p>
+
+                <p>Selecione o seu módulo</p>
+                <select name="módulo" id="módulo" required="true">
+                
+                <option value="m1">M1</option>
+                <option value="m2">M2</option>
+                <option value="m3">M3</option>
+                <option value="m4">M4</option>
+                <option value="m5">M5</option>
+                <option value="m6">M6</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="Senha">Senha</label>
+            </p>
+            <p>
+                <input type="password" placeholder="Senha" id="Senha" required="true" name="senha">
+            </p>
+
+            <p>
+                <label for="Repita a senha">Repita a senha</label>
+            </p>
+            <p>
+                <input type="password" placeholder="Senha" id="Repita a senha" required="true" name="repita a senha">
+            </p>
+
+            <p>
+                <button type="submit">Cadastrar</button>
+            </p>
+
+            </form>    
+
+    </body>
+</html>
